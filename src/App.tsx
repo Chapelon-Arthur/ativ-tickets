@@ -19,7 +19,7 @@ export function App() {
     <div className="painel">
       <h1>Painel de Controle — TecInfo 2026</h1>
 
-      {/* Espelhamento de texto */}
+
       <section>
         <input 
           type="text" 
@@ -32,7 +32,7 @@ export function App() {
         </div>
       </section>
 
-      {/* Contador e Destaque */}
+
       <section>
         <button onClick={() => setCurtidas(curtidas + 1)}>
           Curtir ({curtidas})
@@ -40,7 +40,6 @@ export function App() {
         {curtidas > 5 && <p className="destaque">TECINFO 2026 🔥</p>}
       </section>
 
-      {/* Lista Dinâmica com Key */}
       <section>
         <h2>Tecnologias Aprendidas</h2>
         <ul>
